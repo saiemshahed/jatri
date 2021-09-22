@@ -1,0 +1,347 @@
+$primary-color: orangered;
+$overley:rgba(0,0,0,0.5);
+
+
+.navbar{
+    margin-bottom: 20PX;
+}
+.navbar{
+    border-bottom: 1 px solid rgb(0, 0, 209);
+    .dropdown-menu{
+        background: rgb(236, 67, 37);
+    }
+
+    .dropdown-menu li a:hover{
+        background: #fff;
+    }
+}
+
+#banner{
+    
+        background: rgb(230, 67, 37);
+    height: 600px;
+   .words{
+       margin-left: 200px;
+   }
+   
+}
+#count{
+    position: relative;
+    background: url("../img/background1.jpg");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    .dark-overlay{
+        background: $overley;
+      
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+    .point{
+     color: $primary-color;
+    }
+  
+}
+
+#card-page{
+    background: url("../img/background2.jpg");
+    // background-attachment: fixed;
+  
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    .point{
+      text-decoration: orangered;
+    }
+}
+
+#card-page{
+    .body{
+        background: orangered;
+    }
+    .card{
+        border-radius: 50px;
+    }
+}
+#card-page{
+    img{
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+    .body{
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+    .one{
+        color: $primary-color;
+    }
+    .two{
+        color: $primary-color;
+    }
+}
+
+
+#app{
+    background: url("../img/background3.png");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(189, 59, 12);
+  .card{
+      background:$primary-color ;
+      border-radius: 30px;
+  }
+}
+
+#work{
+    margin-right: -10px;
+    margin-left: -10px;
+    .work1{
+        background:orangered;
+        border-radius: 0 20px 20px 0;
+    }
+    .work1 i{
+        background: #fff;
+        border-radius: 10px;
+        margin-right: 2px;
+    }
+    .work2{
+        background: rgb(63, 58, 58);
+        border-radius: 20px 0 0 20px;
+        padding-right: -20px;
+        width: 1200px;
+      
+    }
+    .work2 i{
+        background: $primary-color;
+        border-radius: 20px ;
+     
+        color: white;
+    }
+}
+#heading{
+    .heading1{
+        background: $primary-color;
+        
+    }
+    .heading1 img{
+        height: 50px;
+        width: 100px;
+        
+    }
+}
+
+#heading{
+    .heading2{
+         position: relative;
+        background: url("../img/background3.jpg");
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+       
+        .dark-overlay{
+            background: $overley;
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+
+        }
+        
+    }
+}
+
+#highlight{
+    background: url("../img/background5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+
+}
+#highlight{
+    .card-body{
+        background: rgb(231, 226, 219);
+    }
+}
+
+#highlight{
+    .card{
+        .fa{
+            background: white;
+            border-radius: 60px;
+        }
+
+    }
+}
+
+#feature{
+    background: $primary-color;
+}
+
+#owner{
+    .txt{
+        color: rgb(110, 106, 106);
+        
+    }
+    .card{
+        background: $primary-color;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .card img{
+        margin-top: -50px;
+        border: 2px solid white;
+    }
+}
+
+
+#footer{
+    background: $primary-color;
+    height: 600px;
+    .copy{
+        background: $primary-color;
+        
+    }
+    .fa{
+        border-radius: 50px ;
+        background: #fff;
+        padding: 10px;
+        color: black;
+        font-size: 15px;
+    }
+    .icon{
+        margin-bottom: 300px;
+    }
+    .img2{
+        margin-top: -40px;
+       
+    }
+    .sec1{
+        margin-top:50px;
+    }
+}
+
+
+// whyus start
+.whynav{
+    background: $primary-color;
+}
+
+#banner2{
+    background: url("../img/why_us_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 50px;
+    .dark-overlay{
+        background: $overley;
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height:600px;
+            opacity: 0.9;
+
+    }
+    .textrow{
+        margin-top: 300px;
+        color: $primary-color;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+      
+    }
+}
+
+#whycard{
+    background: url("../img/background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .col1{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    .card-body{
+        background: $primary-color;
+        border-radius: 30px 30px 0 0;
+    }
+    img{
+        border-radius: 0 0 30px 30px;
+    }
+    .card-title{
+        font-family: 'Archivo', sans-serif;
+    }
+  
+    .card:hover{
+       p{
+           background-color: white;
+           color: red;
+       }
+    }
+   
+}
+
+.bannerrow{
+    background: url("../img/about_us_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600PX;
+    width: 1910px;
+
+   .dark-overlay{
+    background: $overley;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:600px;
+    opacity: 0.9;
+   }
+   .maindiv{
+       background: $primary-color;
+       font-family: 'Anton', sans-serif; ;
+   }
+   .col2{
+       background: $primary-color;
+       margin-top: -10px;
+   }
+}
+#mission{
+
+    background: url("../img/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600PX;
+    .heading1{
+        color: $primary-color;
+        font-family: 'Anton', sans-serif; 
+        display: block;
+
+    }
+    p{
+        font-family: 'Crimson Text', serif;
+    }
+}
+.horizontal{
+    width: 1200px;
+    height: 10px;
+   background: $primary-color;
+   text-align: right;
+}
+.text-right{
+    color: $primary-color;
+    
+}
+.title{
+    margin-right: 40px;
+}

@@ -1,0 +1,239 @@
+.navbar {
+  margin-bottom: 20PX; }
+
+.navbar {
+  border-bottom: 1 px solid #0000d1; }
+  .navbar .dropdown-menu {
+    background: #ec4325; }
+  .navbar .dropdown-menu li a:hover {
+    background: #fff; }
+
+#banner {
+  background: #e64325;
+  height: 600px; }
+  #banner .words {
+    margin-left: 200px; }
+
+#count {
+  position: relative;
+  background: url("../img/background1.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+  #count .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #count .point {
+    color: orangered; }
+
+#card-page {
+  background: url("../img/background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+  #card-page .point {
+    text-decoration: orangered; }
+
+#card-page .body {
+  background: orangered; }
+
+#card-page .card {
+  border-radius: 50px; }
+
+#card-page img {
+  border-radius: 1.5rem 1.5rem 0 0; }
+
+#card-page .body {
+  border-radius: 0 0 1.5rem 1.5rem; }
+
+#card-page .one {
+  color: orangered; }
+
+#card-page .two {
+  color: orangered; }
+
+#app {
+  background: url("../img/background3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #bd3b0c; }
+  #app .card {
+    background: orangered;
+    border-radius: 30px; }
+
+#work {
+  margin-right: -10px;
+  margin-left: -10px; }
+  #work .work1 {
+    background: orangered;
+    border-radius: 0 20px 20px 0; }
+  #work .work1 i {
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 2px; }
+  #work .work2 {
+    background: #3f3a3a;
+    border-radius: 20px 0 0 20px;
+    padding-right: -20px;
+    width: 1200px; }
+  #work .work2 i {
+    background: orangered;
+    border-radius: 20px;
+    color: white; }
+
+#heading .heading1 {
+  background: orangered; }
+
+#heading .heading1 img {
+  height: 50px;
+  width: 100px; }
+
+#heading .heading2 {
+  position: relative;
+  background: url("../img/background3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  #heading .heading2 .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#highlight {
+  background: url("../img/background5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+#highlight .card-body {
+  background: #e7e2db; }
+
+#highlight .card .fa {
+  background: white;
+  border-radius: 60px; }
+
+#feature {
+  background: orangered; }
+
+#owner .txt {
+  color: #6e6a6a; }
+
+#owner .card {
+  background: orangered;
+  border-radius: 10px 10px 10px 10px; }
+
+#owner .card img {
+  margin-top: -50px;
+  border: 2px solid white; }
+
+#footer {
+  background: orangered;
+  height: 600px; }
+  #footer .copy {
+    background: orangered; }
+  #footer .fa {
+    border-radius: 50px;
+    background: #fff;
+    padding: 10px;
+    color: black;
+    font-size: 15px; }
+  #footer .icon {
+    margin-bottom: 300px; }
+  #footer .img2 {
+    margin-top: -40px; }
+  #footer .sec1 {
+    margin-top: 50px; }
+
+.whynav {
+  background: orangered; }
+
+#banner2 {
+  background: url("../img/why_us_bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  margin-top: 50px; }
+  #banner2 .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 0.9; }
+  #banner2 .textrow {
+    margin-top: 300px;
+    color: orangered;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase; }
+
+#whycard {
+  background: url("../img/background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+  #whycard .col1 {
+    margin-top: 200px;
+    margin-bottom: 200px; }
+  #whycard .card-body {
+    background: orangered;
+    border-radius: 30px 30px 0 0; }
+  #whycard img {
+    border-radius: 0 0 30px 30px; }
+  #whycard .card-title {
+    font-family: 'Archivo', sans-serif; }
+  #whycard .card:hover p {
+    background-color: white;
+    color: red; }
+
+.bannerrow {
+  background: url("../img/about_us_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600PX;
+  width: 1910px; }
+  .bannerrow .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 0.9; }
+  .bannerrow .maindiv {
+    background: orangered;
+    font-family: 'Anton', sans-serif; }
+  .bannerrow .col2 {
+    background: orangered;
+    margin-top: -10px; }
+
+#mission {
+  background: url("../img/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600PX; }
+  #mission .heading1 {
+    color: orangered;
+    font-family: 'Anton', sans-serif;
+    display: block; }
+  #mission p {
+    font-family: 'Crimson Text', serif; }
+
+.horizontal {
+  width: 1200px;
+  height: 10px;
+  background: orangered;
+  text-align: right; }
+
+.text-right {
+  color: orangered; }
+
+.title {
+  margin-right: 40px; }
