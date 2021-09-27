@@ -237,3 +237,60 @@
 
 .title {
   margin-right: 40px; }
+
+#aboutcard .card {
+  background: orangered; }
+
+#aboutcard img {
+  height: 300px;
+  width: 350px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: -40px; }
+
+#aboutcard .card-title {
+  text-align: center; }
+
+.horizontal1 {
+  width: 1200px;
+  height: 10px;
+  background: orangered;
+  text-align: right; }
+
+#message .first {
+  font-weight: bold;
+  color: orangered;
+  font-family: 'Crimson Text', sans-serif;
+  margin-bottom: -10px; }
+
+#message .second {
+  font-weight: bold;
+  color: orangered;
+  font-family: 'Crimson Text', sans-serif; }
+
+.commitment {
+  width: 1865px; }
+
+#relative {
+  margin-top: 150px; }
+  #relative h1 {
+    font-family: 'Anton', sans-serif;
+    color: orangered; }
+  #relative h3 {
+    font-family: 'Anton', sans-serif;
+    color: orangered; }
+  #relative img {
+    height: 400px;
+    width: 400px;
+    margin-left: -20px; }
+  #relative h5 {
+    opacity: 0.7; }
+
+#relative {
+  background: url("../img/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600PX;
+  opacity: 0.9; }
